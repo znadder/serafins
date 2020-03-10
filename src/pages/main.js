@@ -12,7 +12,6 @@ export default class Main extends Component {
         books: '',
         abbrev: 'gn',
         chapter: 1,
-        rows: [],
     }
 
     componentDidMount() {
@@ -20,13 +19,16 @@ export default class Main extends Component {
     }
 
     requestBookApi = async () => {
-        let abrev = ''
+        let abrev = []
         try {
+            let obj = {}
             const response = await api.get('/books')
             for (let i = 0; i < response.data.length; i++) {
-                abrev += response.data[i].abbrev.pt + ' '
+                obj.abbrev = response.data[i].abbrev.pt
+                obj.chapter = response.data[i].chapters
+                abrev.push(obj)
+                obj = {}
             }
-            abrev = abrev.split(' ')
             this.setState({ books: abrev })
         } catch (error) {
             console.log(error)
@@ -41,21 +43,10 @@ export default class Main extends Component {
         this.setState({ chapter: text });
     }
 
-    findBook = async (abbrev, chapter) => {
-        const responseBook = await api.get(`/verses/nvi/${abbrev}/${chapter}`)
-        this.setState({ rows: [] })
-        let rows = []
-        let obj = {}
-        let chapterBook = responseBook.data.chapter.number
-        let titleBook = responseBook.data.book.name
-        for (let i = 0; i < responseBook.data.chapter.verses; i++) {
-            obj.verseNumber = responseBook.data.verses[i].number
-            obj.verse = responseBook.data.verses[i].text
-            rows.push(obj)
-            obj = {}
-        }
-        this.setState({ rows: rows })
-        this.props.navigation.navigate("versesText", {abrrev: this.state.abbrev, chapter: this.state.chapter})
+    findBook = async () => {
+        const response = await api.get(`/books/${this.state.abbrev}`)
+        const chapterLimit = response.data.chapters
+        this.props.navigation.navigate("bookSelect", { abrrev: this.state.abbrev, chapter: this.state.chapter, chapterLimit: chapterLimit, books: this.state.books })
     }
 
     renderItem = ({ item }) => {

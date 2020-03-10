@@ -10,17 +10,38 @@ export default class Main extends Component {
         rows: [],
         chapterBook: '',
         titleBook: '',
+        chapterLimit: 0,
+        abbrev: '',
+        books: '',
     }
     componentDidMount() {
         this.getAbrrevChapter()
     }
 
-    getAbrrevChapter = () => {
+    getAbrrevChapter = async () => {
         this.findBook(this.props.navigation.state.params.abrrev, this.props.navigation.state.params.chapter)
+        this.setState({ abbrev: this.props.navigation.state.params.abrrev, chapterLimit: this.props.navigation.state.params.chapterLimit, books: this.props.navigation.state.params.books })
+    }
+
+    requestBookApi = async () => {
+        let abrev = []
+        try {
+            let obj = {}
+            const response = await api.get('/books')
+            for (let i = 0; i < response.data.length; i++) {
+                obj.abbrev = response.data[i].abbrev.pt
+                obj.chapter = response.data[i].chapters
+                abrev.push(obj)
+                obj = {}
+            }
+            this.setState({ books: abrev })
+        } catch (error) {
+            console.log(error)
+        }
+        console.log(this.state.books)
     }
 
     findBook = async (abbrev, chapter) => {
-        console.log(abbrev, chapter)
         const responseBook = await api.get(`/verses/nvi/${abbrev}/${chapter}`)
         this.setState({ rows: [] })
         let rows = []
@@ -34,14 +55,52 @@ export default class Main extends Component {
         this.setState({
             rows: rows,
             chapterBook: responseBook.data.chapter.number,
-            titleBook: responseBook.data.book.name
+            titleBook: responseBook.data.book.name,
+            abbrev: abbrev
         })
+    }
+
+    incrementChapter = () => {
+        if (this.state.chapterBook < this.state.chapterLimit) {
+            this.findBook(this.state.abbrev, this.state.chapterBook + 1)
+        } else {
+            console.log(this.state.books)
+            let index = this.state.books.findIndex((item) => {
+                console.log(item); return item.abbrev === this.state.abbrev
+            })
+
+            console.log(index, this.state.books.length - 1)
+            if (index < this.state.books.length - 1) {
+                this.setState({ chapterLimit: this.state.books[index + 1].chapter })
+                this.findBook(this.state.books[index + 1].abbrev, 1)
+            } else {
+                console.log('acabou as paginas') //ocultar botao
+            }
+        }
+    }
+
+    decreaseChapter = () => {
+        if (this.state.chapterBook > 1) {
+            this.findBook(this.state.abbrev, this.state.chapterBook - 1)
+        } else {
+            console.log(this.state.books)
+            let index = this.state.books.findIndex((item) => {
+                console.log(item); return item.abbrev === this.state.abbrev
+            })
+
+            if (index > 0) {
+                this.setState({ chapterLimit: this.state.books[index - 1].chapter })
+                this.findBook(this.state.books[index - 1].abbrev, this.state.books[index - 1].chapter)
+            } else {
+                console.log('acabou as paginas') //ocultar botao
+            }
+        }
     }
 
     renderItem = ({ item }) => {
         return (
             <View style={styles.textBox}>
-                <Text style={styles.verses}>{item.verseNumber} :  {item.verse}.</Text>
+                <Text style={styles.verses}>{item.verseNumber}:  {item.verse}.</Text>
             </View>
         )
     }
@@ -60,30 +119,33 @@ export default class Main extends Component {
                             source={{ uri: `https://pngimage.net/wp-content/uploads/2018/06/return-button-png-2.png` }} />
                     </TouchableOpacity>
                     <Text style={styles.title}>  {this.state.titleBook} {this.state.chapterBook} </Text>
+                    {/* colaca algo aqui depois */}
                 </View>
                 <FlatList
                     style={styles.flatlist}
-                    contentContainerStyle={{ paddingBottom: 60 }}
+                    contentContainerStyle={{ paddingBottom: 85 }}
                     data={this.state.rows}
                     keyExtractor={item => item.verseNumber.toString()}
                     renderItem={this.renderItem}
                 />
-                <View style={styles.navigateBotton}>
+                <View>
                     <TouchableOpacity
-                        onPress={() => { console.log('CLICOU') }}>
+                        style={styles.navigateBottonL}
+                        onPress={() => { this.decreaseChapter() }}>
                         <Image style={styles.navigateBottonLeft}
                             source={{ uri: `https://cdn0.iconfinder.com/data/icons/controls-add-on/48/v-35-512.png` }} />
                         {/* botao esquerdo */}
                     </TouchableOpacity>
 
                     <TouchableOpacity
-                        onPress={() => { console.log('CLICOU') }}>
+                        style={styles.navigateBottonR}
+                        onPress={() => this.incrementChapter()}>
                         <Image style={styles.navigateBottonRight}
                             source={{ uri: `https://cdn0.iconfinder.com/data/icons/controls-add-on/48/v-35-512.png` }} />
                         {/* botao direito */}
                     </TouchableOpacity>
                 </View>
-            </View>
+            </View >
         )
     }
 }
@@ -98,14 +160,14 @@ const styles = StyleSheet.create({
 
     verses: {
         fontSize: 14,
-        textAlign: 'center',
+        textAlign: 'auto',
         fontFamily: 'GentiumPlus-I',
         color: '#202020',
     },
 
     textBox: {
         alignSelf: 'auto',
-
+        textAlign: 'justify'
     },
 
     flatlist: {
@@ -119,25 +181,34 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         paddingLeft: 20,
+        backgroundColor: '#F4F6F6'
     },
 
     navigateBottonLeft: {
-        flex: 1,
-        position: "absolute",
-        bottom: 40,
-        left: 20,
         height: 40,
         width: 40,
         backgroundColor: 'red'
     },
 
     navigateBottonRight: {
-        flex: 1,
-        position: "absolute",
-        bottom: 40,
-        right: 20,
         height: 40,
         width: 40,
         backgroundColor: 'green'
     },
+
+    navigateBottonR: {
+        height: 40,
+        width: 40,
+        position: "absolute",
+        bottom: 40,
+        right: 20,
+    },
+
+    navigateBottonL: {
+        height: 40,
+        width: 40,
+        position: "absolute",
+        bottom: 40,
+        left: 20,
+    }
 });
