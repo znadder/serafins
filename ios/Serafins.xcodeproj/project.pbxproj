@@ -35,6 +35,86 @@
 		07BD04BA2EBC40D9BC10821C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40FEC2243DAB4852BA426DF5 /* Octicons.ttf */; };
 		8DAA6954AD76491F96361459 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B105C4A9BB44D79204B01E /* SimpleLineIcons.ttf */; };
 		CF29845D636F490A92FA9067 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3E761432D60454BB2355D0B /* Zocial.ttf */; };
+		EB6B11E1287548F784ED5804 /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA0E9522824142A9A6EC0054 /* Arial.ttf */; };
+		1DB13F00806B4156B7FBBEC5 /* ceaswfte.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C9776DDF5E04A3E9FC7EA29 /* ceaswfte.ttf */; };
+		B016BDB22613443DBB53FF90 /* cebswfte.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 22C01E4F3BAA432C90C396D6 /* cebswfte.ttf */; };
+		9E7AD0776A62421AA9E6C738 /* ceiswfte.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C62634A6B1044270A21741A3 /* ceiswfte.ttf */; };
+		6A6DF458C6F44634BB36457B /* Century Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C41D7BB7C545488B9494ACBA /* Century Bold Italic.ttf */; };
+		0B2E833E563B418EA6586A4E /* Century Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66B5CE3FA6934FA092D6D65B /* Century Bold.ttf */; };
+		8F42F982C73B4989B0B5818A /* Century Normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAAD18C2280047F9A872A69D /* Century Normal.ttf */; };
+		96BD1C3EF6784483B89C4CFE /* CENTURY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 30596DA9D9AB4E719CBCB42D /* CENTURY.ttf */; };
+		5BC00106D5A046BF89DB3249 /* Kiona-Itallic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6AD3114D0664F04BA798BEB /* Kiona-Itallic.ttf */; };
+		3D3A3F6D640745A2B861E231 /* Kiona-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9039F73172B24187A14943B0 /* Kiona-Regular.ttf */; };
+		848F7EDC001945559733E6A3 /* arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96D707F7639E44CFBFE4B235 /* arial.ttf */; };
+		1B1CECEAED724100AE3D76C1 /* arialbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 920BF582063C4D559D1C872B /* arialbd.ttf */; };
+		DB66AC3F286840CE9BD7D5A6 /* arialbi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F930433A590D4EA4A09DC4E7 /* arialbi.ttf */; };
+		F619A1EEB19D4892B64DB8AE /* ariali.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16C4D0CEF97648B0B1BC70C5 /* ariali.ttf */; };
+		530A05DC0AA945FAAD58470C /* ariblk.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D48BC03C58247E2BC93F79D /* ariblk.ttf */; };
+		4D7475156E014928B01C2D9A /* bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 352DACBD02C6408CA32FAAAD /* bahnschrift.ttf */; };
+		2C790CABD7494D6990F6F775 /* comic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF5F903C1EB04F53A92D0AED /* comic.ttf */; };
+		63C1783CD47A408D89D21971 /* comicbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B894F15CDB8E406593988E4F /* comicbd.ttf */; };
+		16CF5370AE7B4CABA6838F1D /* comici.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D2E71BE33184D678394187A /* comici.ttf */; };
+		044AD7C34CE94EA797D66B1A /* comicz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDE6B6B19DBE4F8CB26DDF78 /* comicz.ttf */; };
+		786D2B59E20948B99ACC4F83 /* consola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC651F13C0B641FA8A6086A9 /* consola.ttf */; };
+		FF3050DE13B2404C8603C0E6 /* consolab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 398FB3D7D32D4455B8556E80 /* consolab.ttf */; };
+		ABF67C617E204EEC89D71EDC /* consolai.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B0E3225094C438EAF8C71AF /* consolai.ttf */; };
+		70476CDE59B54B809797D135 /* consolaz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32F4E1E3392F49E38D27250D /* consolaz.ttf */; };
+		DF676B02445A4192B34CDD9C /* cour.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C762850B1CF047A68C4EC0CA /* cour.ttf */; };
+		6268C7AAFDE6428BAEE8BB95 /* courbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2756DF733BE244A7ADA6A44E /* courbd.ttf */; };
+		72DC62C24BF049FDB9CF6A98 /* courbi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFC36E42FCC94770B2B7BBEA /* courbi.ttf */; };
+		FC1576B963FD428E9A1967EA /* couri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F63658CB14674F7DAAAB5E88 /* couri.ttf */; };
+		368C8608094E4998B7250408 /* Gabriola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B37F5688670146649411562F /* Gabriola.ttf */; };
+		9D954AF372A54B8BA727967E /* gadugi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 654F90A0E4E644A1A962CE1A /* gadugi.ttf */; };
+		F6807B663DA8413FB709E862 /* gadugib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0DB6CB4BE584346A6596F71 /* gadugib.ttf */; };
+		82FC409F5A6B4791A954FEA1 /* GentiumPlus-I.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 842F1E8D10644E79ADD6C899 /* GentiumPlus-I.ttf */; };
+		CA2A4011F05848F09A623BE8 /* georgia.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C546F31F03B4DB49F1F57C7 /* georgia.ttf */; };
+		63454FC0508D49A1B5963E91 /* georgiab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1A07CBD0794E538F457372 /* georgiab.ttf */; };
+		769090AE961C4B5BB6855ECF /* georgiai.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C28D0D0B59924ED5972103DD /* georgiai.ttf */; };
+		6004D28C6A7C426F82BC1A14 /* georgiaz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58666B6EDB2D4384BC4E7AA4 /* georgiaz.ttf */; };
+		5339E981AEC2491E976AD3DC /* himalaya.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3859514C5C2B4EB29577ACD7 /* himalaya.ttf */; };
+		5F719B97732742C18A4547CD /* l_10646.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5079E33A041B4C1AB70E25D6 /* l_10646.ttf */; };
+		B20F5A5BBB0D4A63850D92CB /* LeelaUIb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 288D40A564E74C0DA22A7CE4 /* LeelaUIb.ttf */; };
+		25B2BCAD6A8641C7A99F730F /* LeelawUI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE7F581295FE412AB5A8229F /* LeelawUI.ttf */; };
+		7BFA13D43CFE41C084BD110C /* LeelUIsl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF08BB4030424072AAE6F75B /* LeelUIsl.ttf */; };
+		C7D2F0D175D045ECB114F669 /* lucon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 938D3F562A724DF481E519CC /* lucon.ttf */; };
+		B1EA1D645BA441839E6059E1 /* malgun.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD99BB500FAF417ABA658C59 /* malgun.ttf */; };
+		3FA8ECB7A39E405CB8EBC18E /* micross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 058E2D586467499C8CF429A5 /* micross.ttf */; };
+		284EF44D3CBD44A288DABCA0 /* msjh.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 032FA5A1DE28483CB519718B /* msjh.ttc */; };
+		6EB89C674CFB41609AA8B498 /* msyh.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3474FEF75E594B69BF8A2FAA /* msyh.ttc */; };
+		F2FDC6FBE51F4A23B921138D /* Nirmala.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27341B0D283940E0A03A1B89 /* Nirmala.ttf */; };
+		AF46D249391C46E8B9EF37DF /* NirmalaB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E530888B29B4B68864F1A4E /* NirmalaB.ttf */; };
+		FF086BECA88D49AE891FECD9 /* NirmalaS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DA25778D2BF437FBB704040 /* NirmalaS.ttf */; };
+		BD6BCA3F08A44ECBBCA3DFB8 /* segmdl2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD1CB7149C52479BA120AE38 /* segmdl2.ttf */; };
+		B63EF73C2D7849139ECFFEFF /* segoepr.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CCF2EA239484628B793B5E0 /* segoepr.ttf */; };
+		FA108A8DD48D4B67AE17F76E /* segoeprb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A51F9FCDFE8B4482804494D0 /* segoeprb.ttf */; };
+		2E5D0E4354BC4D2D94B96FD4 /* segoesc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C476AAB6D653405ABC9760E5 /* segoesc.ttf */; };
+		FA2AD6194AF94370B5C3B120 /* segoescb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 696072BFBA9346AA920296AA /* segoescb.ttf */; };
+		543948C4BCA54517968808CC /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97E080B5EE3B4A6081C87188 /* segoeui.ttf */; };
+		9B21315AC27044DF994A7DD5 /* segoeuib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D26D42212BA4906A6B45577 /* segoeuib.ttf */; };
+		7394D4D3EC714B668D8D5150 /* segoeuii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ABCAF8DF4E0C4FAC888396B2 /* segoeuii.ttf */; };
+		7BB6A48DED9F4F2D9C699213 /* segoeuil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7384F1C7A6A84009B36B2622 /* segoeuil.ttf */; };
+		4AFE54F6BBEC4C96A683B04A /* segoeuisl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73419E4649C94171B0F28A4C /* segoeuisl.ttf */; };
+		C594A5778E5E4DB98E914190 /* segoeuiz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CB1C25110814BAEA7A4DEC3 /* segoeuiz.ttf */; };
+		CD63F94B55D84727B67F05E9 /* seguibl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95C2916C166749A494180A02 /* seguibl.ttf */; };
+		2FD3240C5E744984A033480E /* seguibli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 851E3B6E275D497BA954E485 /* seguibli.ttf */; };
+		030BBC9F70CF40548E544462 /* seguiemj.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA68C81CB9EB4F068E0866EE /* seguiemj.ttf */; };
+		1C2DEB959F3E4CD6A975436B /* seguihis.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1F45A4A71C400F8A526E3D /* seguihis.ttf */; };
+		73FDF549E3FF4E6C80514005 /* seguili.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F44863C5DE441C59590DC8B /* seguili.ttf */; };
+		B8DFB14A3C0D4E769CD58E82 /* seguisb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E4852A2EEF4E15BB69A5BC /* seguisb.ttf */; };
+		49EF3E7D7211440C8F0CBF66 /* seguisbi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 545D9A90E93F4475A34D4C06 /* seguisbi.ttf */; };
+		461A5F1418AB4ACB82C03D48 /* seguisli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA9786D21A9D42A5BE850601 /* seguisli.ttf */; };
+		0E0028A984BF4EFEA10387B5 /* seguisym.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F10A35E71BCE41A2B0AB916A /* seguisym.ttf */; };
+		00E30A70E3244D89936D6467 /* sylfaen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 982C24362CA14568BCE8C6C0 /* sylfaen.ttf */; };
+		B64C72A859384D8D8F122CE9 /* symbol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B676987F7524D6991D07999 /* symbol.ttf */; };
+		DA8E35531A74449597191A70 /* tahoma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2FC602B430D4F97B370242E /* tahoma.ttf */; };
+		9897E3597F5B42FC91827425 /* tahomabd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 571A40A70AA44CF4A218A593 /* tahomabd.ttf */; };
+		44C812DD4BAE499FAD564F4F /* taile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E9D9FBD125542959A004EC9 /* taile.ttf */; };
+		E2582EDFF7C94F10A4859C05 /* taileb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118FE792CD004E3D93E22A8D /* taileb.ttf */; };
+		764B140E196141C5B88C8101 /* times.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9128774A9D54D1885706164 /* times.ttf */; };
+		236C42A9329548179A4901F6 /* timesbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE5DB7026DF4780B95C73E1 /* timesbd.ttf */; };
+		BC2746F5F7B24799AF865AD1 /* timesbi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3755BFCFA47F4A59A49C083A /* timesbi.ttf */; };
+		FFF4F512E7314535A5104175 /* timesi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86D4F14B4196433392C1CDD7 /* timesi.ttf */; };
+		9C8FBBC1D05E471B822404BE /* wingding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2741C5075B094A4DB1E3C3B9 /* wingding.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +169,86 @@
 		40FEC2243DAB4852BA426DF5 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		36B105C4A9BB44D79204B01E /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		A3E761432D60454BB2355D0B /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA0E9522824142A9A6EC0054 /* Arial.ttf */ = {isa = PBXFileReference; name = "Arial.ttf"; path = "../src/assets/fonts/Arial/Arial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C9776DDF5E04A3E9FC7EA29 /* ceaswfte.ttf */ = {isa = PBXFileReference; name = "ceaswfte.ttf"; path = "../src/assets/fonts/century/ceaswfte.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		22C01E4F3BAA432C90C396D6 /* cebswfte.ttf */ = {isa = PBXFileReference; name = "cebswfte.ttf"; path = "../src/assets/fonts/century/cebswfte.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C62634A6B1044270A21741A3 /* ceiswfte.ttf */ = {isa = PBXFileReference; name = "ceiswfte.ttf"; path = "../src/assets/fonts/century/ceiswfte.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C41D7BB7C545488B9494ACBA /* Century Bold Italic.ttf */ = {isa = PBXFileReference; name = "Century Bold Italic.ttf"; path = "../src/assets/fonts/century/Century Bold Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66B5CE3FA6934FA092D6D65B /* Century Bold.ttf */ = {isa = PBXFileReference; name = "Century Bold.ttf"; path = "../src/assets/fonts/century/Century Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAAD18C2280047F9A872A69D /* Century Normal.ttf */ = {isa = PBXFileReference; name = "Century Normal.ttf"; path = "../src/assets/fonts/century/Century Normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		30596DA9D9AB4E719CBCB42D /* CENTURY.ttf */ = {isa = PBXFileReference; name = "CENTURY.ttf"; path = "../src/assets/fonts/century/CENTURY.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6AD3114D0664F04BA798BEB /* Kiona-Itallic.ttf */ = {isa = PBXFileReference; name = "Kiona-Itallic.ttf"; path = "../src/assets/fonts/kiona_2/Kiona-Itallic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9039F73172B24187A14943B0 /* Kiona-Regular.ttf */ = {isa = PBXFileReference; name = "Kiona-Regular.ttf"; path = "../src/assets/fonts/kiona_2/Kiona-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		96D707F7639E44CFBFE4B235 /* arial.ttf */ = {isa = PBXFileReference; name = "arial.ttf"; path = "../src/assets/fonts/FontesWindows/arial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		920BF582063C4D559D1C872B /* arialbd.ttf */ = {isa = PBXFileReference; name = "arialbd.ttf"; path = "../src/assets/fonts/FontesWindows/arialbd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F930433A590D4EA4A09DC4E7 /* arialbi.ttf */ = {isa = PBXFileReference; name = "arialbi.ttf"; path = "../src/assets/fonts/FontesWindows/arialbi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16C4D0CEF97648B0B1BC70C5 /* ariali.ttf */ = {isa = PBXFileReference; name = "ariali.ttf"; path = "../src/assets/fonts/FontesWindows/ariali.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D48BC03C58247E2BC93F79D /* ariblk.ttf */ = {isa = PBXFileReference; name = "ariblk.ttf"; path = "../src/assets/fonts/FontesWindows/ariblk.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		352DACBD02C6408CA32FAAAD /* bahnschrift.ttf */ = {isa = PBXFileReference; name = "bahnschrift.ttf"; path = "../src/assets/fonts/FontesWindows/bahnschrift.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF5F903C1EB04F53A92D0AED /* comic.ttf */ = {isa = PBXFileReference; name = "comic.ttf"; path = "../src/assets/fonts/FontesWindows/comic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B894F15CDB8E406593988E4F /* comicbd.ttf */ = {isa = PBXFileReference; name = "comicbd.ttf"; path = "../src/assets/fonts/FontesWindows/comicbd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D2E71BE33184D678394187A /* comici.ttf */ = {isa = PBXFileReference; name = "comici.ttf"; path = "../src/assets/fonts/FontesWindows/comici.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDE6B6B19DBE4F8CB26DDF78 /* comicz.ttf */ = {isa = PBXFileReference; name = "comicz.ttf"; path = "../src/assets/fonts/FontesWindows/comicz.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AC651F13C0B641FA8A6086A9 /* consola.ttf */ = {isa = PBXFileReference; name = "consola.ttf"; path = "../src/assets/fonts/FontesWindows/consola.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		398FB3D7D32D4455B8556E80 /* consolab.ttf */ = {isa = PBXFileReference; name = "consolab.ttf"; path = "../src/assets/fonts/FontesWindows/consolab.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B0E3225094C438EAF8C71AF /* consolai.ttf */ = {isa = PBXFileReference; name = "consolai.ttf"; path = "../src/assets/fonts/FontesWindows/consolai.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32F4E1E3392F49E38D27250D /* consolaz.ttf */ = {isa = PBXFileReference; name = "consolaz.ttf"; path = "../src/assets/fonts/FontesWindows/consolaz.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C762850B1CF047A68C4EC0CA /* cour.ttf */ = {isa = PBXFileReference; name = "cour.ttf"; path = "../src/assets/fonts/FontesWindows/cour.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2756DF733BE244A7ADA6A44E /* courbd.ttf */ = {isa = PBXFileReference; name = "courbd.ttf"; path = "../src/assets/fonts/FontesWindows/courbd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFC36E42FCC94770B2B7BBEA /* courbi.ttf */ = {isa = PBXFileReference; name = "courbi.ttf"; path = "../src/assets/fonts/FontesWindows/courbi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F63658CB14674F7DAAAB5E88 /* couri.ttf */ = {isa = PBXFileReference; name = "couri.ttf"; path = "../src/assets/fonts/FontesWindows/couri.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B37F5688670146649411562F /* Gabriola.ttf */ = {isa = PBXFileReference; name = "Gabriola.ttf"; path = "../src/assets/fonts/FontesWindows/Gabriola.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		654F90A0E4E644A1A962CE1A /* gadugi.ttf */ = {isa = PBXFileReference; name = "gadugi.ttf"; path = "../src/assets/fonts/FontesWindows/gadugi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C0DB6CB4BE584346A6596F71 /* gadugib.ttf */ = {isa = PBXFileReference; name = "gadugib.ttf"; path = "../src/assets/fonts/FontesWindows/gadugib.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		842F1E8D10644E79ADD6C899 /* GentiumPlus-I.ttf */ = {isa = PBXFileReference; name = "GentiumPlus-I.ttf"; path = "../src/assets/fonts/FontesWindows/GentiumPlus-I.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5C546F31F03B4DB49F1F57C7 /* georgia.ttf */ = {isa = PBXFileReference; name = "georgia.ttf"; path = "../src/assets/fonts/FontesWindows/georgia.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B1A07CBD0794E538F457372 /* georgiab.ttf */ = {isa = PBXFileReference; name = "georgiab.ttf"; path = "../src/assets/fonts/FontesWindows/georgiab.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C28D0D0B59924ED5972103DD /* georgiai.ttf */ = {isa = PBXFileReference; name = "georgiai.ttf"; path = "../src/assets/fonts/FontesWindows/georgiai.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		58666B6EDB2D4384BC4E7AA4 /* georgiaz.ttf */ = {isa = PBXFileReference; name = "georgiaz.ttf"; path = "../src/assets/fonts/FontesWindows/georgiaz.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3859514C5C2B4EB29577ACD7 /* himalaya.ttf */ = {isa = PBXFileReference; name = "himalaya.ttf"; path = "../src/assets/fonts/FontesWindows/himalaya.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5079E33A041B4C1AB70E25D6 /* l_10646.ttf */ = {isa = PBXFileReference; name = "l_10646.ttf"; path = "../src/assets/fonts/FontesWindows/l_10646.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		288D40A564E74C0DA22A7CE4 /* LeelaUIb.ttf */ = {isa = PBXFileReference; name = "LeelaUIb.ttf"; path = "../src/assets/fonts/FontesWindows/LeelaUIb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE7F581295FE412AB5A8229F /* LeelawUI.ttf */ = {isa = PBXFileReference; name = "LeelawUI.ttf"; path = "../src/assets/fonts/FontesWindows/LeelawUI.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CF08BB4030424072AAE6F75B /* LeelUIsl.ttf */ = {isa = PBXFileReference; name = "LeelUIsl.ttf"; path = "../src/assets/fonts/FontesWindows/LeelUIsl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		938D3F562A724DF481E519CC /* lucon.ttf */ = {isa = PBXFileReference; name = "lucon.ttf"; path = "../src/assets/fonts/FontesWindows/lucon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD99BB500FAF417ABA658C59 /* malgun.ttf */ = {isa = PBXFileReference; name = "malgun.ttf"; path = "../src/assets/fonts/FontesWindows/malgun.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		058E2D586467499C8CF429A5 /* micross.ttf */ = {isa = PBXFileReference; name = "micross.ttf"; path = "../src/assets/fonts/FontesWindows/micross.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		032FA5A1DE28483CB519718B /* msjh.ttc */ = {isa = PBXFileReference; name = "msjh.ttc"; path = "../src/assets/fonts/FontesWindows/msjh.ttc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3474FEF75E594B69BF8A2FAA /* msyh.ttc */ = {isa = PBXFileReference; name = "msyh.ttc"; path = "../src/assets/fonts/FontesWindows/msyh.ttc"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		27341B0D283940E0A03A1B89 /* Nirmala.ttf */ = {isa = PBXFileReference; name = "Nirmala.ttf"; path = "../src/assets/fonts/FontesWindows/Nirmala.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5E530888B29B4B68864F1A4E /* NirmalaB.ttf */ = {isa = PBXFileReference; name = "NirmalaB.ttf"; path = "../src/assets/fonts/FontesWindows/NirmalaB.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0DA25778D2BF437FBB704040 /* NirmalaS.ttf */ = {isa = PBXFileReference; name = "NirmalaS.ttf"; path = "../src/assets/fonts/FontesWindows/NirmalaS.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CD1CB7149C52479BA120AE38 /* segmdl2.ttf */ = {isa = PBXFileReference; name = "segmdl2.ttf"; path = "../src/assets/fonts/FontesWindows/segmdl2.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7CCF2EA239484628B793B5E0 /* segoepr.ttf */ = {isa = PBXFileReference; name = "segoepr.ttf"; path = "../src/assets/fonts/FontesWindows/segoepr.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A51F9FCDFE8B4482804494D0 /* segoeprb.ttf */ = {isa = PBXFileReference; name = "segoeprb.ttf"; path = "../src/assets/fonts/FontesWindows/segoeprb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C476AAB6D653405ABC9760E5 /* segoesc.ttf */ = {isa = PBXFileReference; name = "segoesc.ttf"; path = "../src/assets/fonts/FontesWindows/segoesc.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		696072BFBA9346AA920296AA /* segoescb.ttf */ = {isa = PBXFileReference; name = "segoescb.ttf"; path = "../src/assets/fonts/FontesWindows/segoescb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97E080B5EE3B4A6081C87188 /* segoeui.ttf */ = {isa = PBXFileReference; name = "segoeui.ttf"; path = "../src/assets/fonts/FontesWindows/segoeui.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3D26D42212BA4906A6B45577 /* segoeuib.ttf */ = {isa = PBXFileReference; name = "segoeuib.ttf"; path = "../src/assets/fonts/FontesWindows/segoeuib.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ABCAF8DF4E0C4FAC888396B2 /* segoeuii.ttf */ = {isa = PBXFileReference; name = "segoeuii.ttf"; path = "../src/assets/fonts/FontesWindows/segoeuii.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7384F1C7A6A84009B36B2622 /* segoeuil.ttf */ = {isa = PBXFileReference; name = "segoeuil.ttf"; path = "../src/assets/fonts/FontesWindows/segoeuil.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73419E4649C94171B0F28A4C /* segoeuisl.ttf */ = {isa = PBXFileReference; name = "segoeuisl.ttf"; path = "../src/assets/fonts/FontesWindows/segoeuisl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2CB1C25110814BAEA7A4DEC3 /* segoeuiz.ttf */ = {isa = PBXFileReference; name = "segoeuiz.ttf"; path = "../src/assets/fonts/FontesWindows/segoeuiz.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95C2916C166749A494180A02 /* seguibl.ttf */ = {isa = PBXFileReference; name = "seguibl.ttf"; path = "../src/assets/fonts/FontesWindows/seguibl.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		851E3B6E275D497BA954E485 /* seguibli.ttf */ = {isa = PBXFileReference; name = "seguibli.ttf"; path = "../src/assets/fonts/FontesWindows/seguibli.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA68C81CB9EB4F068E0866EE /* seguiemj.ttf */ = {isa = PBXFileReference; name = "seguiemj.ttf"; path = "../src/assets/fonts/FontesWindows/seguiemj.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4B1F45A4A71C400F8A526E3D /* seguihis.ttf */ = {isa = PBXFileReference; name = "seguihis.ttf"; path = "../src/assets/fonts/FontesWindows/seguihis.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7F44863C5DE441C59590DC8B /* seguili.ttf */ = {isa = PBXFileReference; name = "seguili.ttf"; path = "../src/assets/fonts/FontesWindows/seguili.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1E4852A2EEF4E15BB69A5BC /* seguisb.ttf */ = {isa = PBXFileReference; name = "seguisb.ttf"; path = "../src/assets/fonts/FontesWindows/seguisb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		545D9A90E93F4475A34D4C06 /* seguisbi.ttf */ = {isa = PBXFileReference; name = "seguisbi.ttf"; path = "../src/assets/fonts/FontesWindows/seguisbi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CA9786D21A9D42A5BE850601 /* seguisli.ttf */ = {isa = PBXFileReference; name = "seguisli.ttf"; path = "../src/assets/fonts/FontesWindows/seguisli.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F10A35E71BCE41A2B0AB916A /* seguisym.ttf */ = {isa = PBXFileReference; name = "seguisym.ttf"; path = "../src/assets/fonts/FontesWindows/seguisym.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		982C24362CA14568BCE8C6C0 /* sylfaen.ttf */ = {isa = PBXFileReference; name = "sylfaen.ttf"; path = "../src/assets/fonts/FontesWindows/sylfaen.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B676987F7524D6991D07999 /* symbol.ttf */ = {isa = PBXFileReference; name = "symbol.ttf"; path = "../src/assets/fonts/FontesWindows/symbol.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D2FC602B430D4F97B370242E /* tahoma.ttf */ = {isa = PBXFileReference; name = "tahoma.ttf"; path = "../src/assets/fonts/FontesWindows/tahoma.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		571A40A70AA44CF4A218A593 /* tahomabd.ttf */ = {isa = PBXFileReference; name = "tahomabd.ttf"; path = "../src/assets/fonts/FontesWindows/tahomabd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E9D9FBD125542959A004EC9 /* taile.ttf */ = {isa = PBXFileReference; name = "taile.ttf"; path = "../src/assets/fonts/FontesWindows/taile.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		118FE792CD004E3D93E22A8D /* taileb.ttf */ = {isa = PBXFileReference; name = "taileb.ttf"; path = "../src/assets/fonts/FontesWindows/taileb.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F9128774A9D54D1885706164 /* times.ttf */ = {isa = PBXFileReference; name = "times.ttf"; path = "../src/assets/fonts/FontesWindows/times.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0AE5DB7026DF4780B95C73E1 /* timesbd.ttf */ = {isa = PBXFileReference; name = "timesbd.ttf"; path = "../src/assets/fonts/FontesWindows/timesbd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3755BFCFA47F4A59A49C083A /* timesbi.ttf */ = {isa = PBXFileReference; name = "timesbi.ttf"; path = "../src/assets/fonts/FontesWindows/timesbi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		86D4F14B4196433392C1CDD7 /* timesi.ttf */ = {isa = PBXFileReference; name = "timesi.ttf"; path = "../src/assets/fonts/FontesWindows/timesi.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2741C5075B094A4DB1E3C3B9 /* wingding.ttf */ = {isa = PBXFileReference; name = "wingding.ttf"; path = "../src/assets/fonts/FontesWindows/wingding.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +378,86 @@
 				40FEC2243DAB4852BA426DF5 /* Octicons.ttf */,
 				36B105C4A9BB44D79204B01E /* SimpleLineIcons.ttf */,
 				A3E761432D60454BB2355D0B /* Zocial.ttf */,
+				EA0E9522824142A9A6EC0054 /* Arial.ttf */,
+				4C9776DDF5E04A3E9FC7EA29 /* ceaswfte.ttf */,
+				22C01E4F3BAA432C90C396D6 /* cebswfte.ttf */,
+				C62634A6B1044270A21741A3 /* ceiswfte.ttf */,
+				C41D7BB7C545488B9494ACBA /* Century Bold Italic.ttf */,
+				66B5CE3FA6934FA092D6D65B /* Century Bold.ttf */,
+				BAAD18C2280047F9A872A69D /* Century Normal.ttf */,
+				30596DA9D9AB4E719CBCB42D /* CENTURY.ttf */,
+				B6AD3114D0664F04BA798BEB /* Kiona-Itallic.ttf */,
+				9039F73172B24187A14943B0 /* Kiona-Regular.ttf */,
+				96D707F7639E44CFBFE4B235 /* arial.ttf */,
+				920BF582063C4D559D1C872B /* arialbd.ttf */,
+				F930433A590D4EA4A09DC4E7 /* arialbi.ttf */,
+				16C4D0CEF97648B0B1BC70C5 /* ariali.ttf */,
+				4D48BC03C58247E2BC93F79D /* ariblk.ttf */,
+				352DACBD02C6408CA32FAAAD /* bahnschrift.ttf */,
+				EF5F903C1EB04F53A92D0AED /* comic.ttf */,
+				B894F15CDB8E406593988E4F /* comicbd.ttf */,
+				7D2E71BE33184D678394187A /* comici.ttf */,
+				FDE6B6B19DBE4F8CB26DDF78 /* comicz.ttf */,
+				AC651F13C0B641FA8A6086A9 /* consola.ttf */,
+				398FB3D7D32D4455B8556E80 /* consolab.ttf */,
+				0B0E3225094C438EAF8C71AF /* consolai.ttf */,
+				32F4E1E3392F49E38D27250D /* consolaz.ttf */,
+				C762850B1CF047A68C4EC0CA /* cour.ttf */,
+				2756DF733BE244A7ADA6A44E /* courbd.ttf */,
+				FFC36E42FCC94770B2B7BBEA /* courbi.ttf */,
+				F63658CB14674F7DAAAB5E88 /* couri.ttf */,
+				B37F5688670146649411562F /* Gabriola.ttf */,
+				654F90A0E4E644A1A962CE1A /* gadugi.ttf */,
+				C0DB6CB4BE584346A6596F71 /* gadugib.ttf */,
+				842F1E8D10644E79ADD6C899 /* GentiumPlus-I.ttf */,
+				5C546F31F03B4DB49F1F57C7 /* georgia.ttf */,
+				4B1A07CBD0794E538F457372 /* georgiab.ttf */,
+				C28D0D0B59924ED5972103DD /* georgiai.ttf */,
+				58666B6EDB2D4384BC4E7AA4 /* georgiaz.ttf */,
+				3859514C5C2B4EB29577ACD7 /* himalaya.ttf */,
+				5079E33A041B4C1AB70E25D6 /* l_10646.ttf */,
+				288D40A564E74C0DA22A7CE4 /* LeelaUIb.ttf */,
+				AE7F581295FE412AB5A8229F /* LeelawUI.ttf */,
+				CF08BB4030424072AAE6F75B /* LeelUIsl.ttf */,
+				938D3F562A724DF481E519CC /* lucon.ttf */,
+				CD99BB500FAF417ABA658C59 /* malgun.ttf */,
+				058E2D586467499C8CF429A5 /* micross.ttf */,
+				032FA5A1DE28483CB519718B /* msjh.ttc */,
+				3474FEF75E594B69BF8A2FAA /* msyh.ttc */,
+				27341B0D283940E0A03A1B89 /* Nirmala.ttf */,
+				5E530888B29B4B68864F1A4E /* NirmalaB.ttf */,
+				0DA25778D2BF437FBB704040 /* NirmalaS.ttf */,
+				CD1CB7149C52479BA120AE38 /* segmdl2.ttf */,
+				7CCF2EA239484628B793B5E0 /* segoepr.ttf */,
+				A51F9FCDFE8B4482804494D0 /* segoeprb.ttf */,
+				C476AAB6D653405ABC9760E5 /* segoesc.ttf */,
+				696072BFBA9346AA920296AA /* segoescb.ttf */,
+				97E080B5EE3B4A6081C87188 /* segoeui.ttf */,
+				3D26D42212BA4906A6B45577 /* segoeuib.ttf */,
+				ABCAF8DF4E0C4FAC888396B2 /* segoeuii.ttf */,
+				7384F1C7A6A84009B36B2622 /* segoeuil.ttf */,
+				73419E4649C94171B0F28A4C /* segoeuisl.ttf */,
+				2CB1C25110814BAEA7A4DEC3 /* segoeuiz.ttf */,
+				95C2916C166749A494180A02 /* seguibl.ttf */,
+				851E3B6E275D497BA954E485 /* seguibli.ttf */,
+				EA68C81CB9EB4F068E0866EE /* seguiemj.ttf */,
+				4B1F45A4A71C400F8A526E3D /* seguihis.ttf */,
+				7F44863C5DE441C59590DC8B /* seguili.ttf */,
+				F1E4852A2EEF4E15BB69A5BC /* seguisb.ttf */,
+				545D9A90E93F4475A34D4C06 /* seguisbi.ttf */,
+				CA9786D21A9D42A5BE850601 /* seguisli.ttf */,
+				F10A35E71BCE41A2B0AB916A /* seguisym.ttf */,
+				982C24362CA14568BCE8C6C0 /* sylfaen.ttf */,
+				2B676987F7524D6991D07999 /* symbol.ttf */,
+				D2FC602B430D4F97B370242E /* tahoma.ttf */,
+				571A40A70AA44CF4A218A593 /* tahomabd.ttf */,
+				8E9D9FBD125542959A004EC9 /* taile.ttf */,
+				118FE792CD004E3D93E22A8D /* taileb.ttf */,
+				F9128774A9D54D1885706164 /* times.ttf */,
+				0AE5DB7026DF4780B95C73E1 /* timesbd.ttf */,
+				3755BFCFA47F4A59A49C083A /* timesbi.ttf */,
+				86D4F14B4196433392C1CDD7 /* timesi.ttf */,
+				2741C5075B094A4DB1E3C3B9 /* wingding.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -378,6 +618,86 @@
 				07BD04BA2EBC40D9BC10821C /* Octicons.ttf in Resources */,
 				8DAA6954AD76491F96361459 /* SimpleLineIcons.ttf in Resources */,
 				CF29845D636F490A92FA9067 /* Zocial.ttf in Resources */,
+				EB6B11E1287548F784ED5804 /* Arial.ttf in Resources */,
+				1DB13F00806B4156B7FBBEC5 /* ceaswfte.ttf in Resources */,
+				B016BDB22613443DBB53FF90 /* cebswfte.ttf in Resources */,
+				9E7AD0776A62421AA9E6C738 /* ceiswfte.ttf in Resources */,
+				6A6DF458C6F44634BB36457B /* Century Bold Italic.ttf in Resources */,
+				0B2E833E563B418EA6586A4E /* Century Bold.ttf in Resources */,
+				8F42F982C73B4989B0B5818A /* Century Normal.ttf in Resources */,
+				96BD1C3EF6784483B89C4CFE /* CENTURY.ttf in Resources */,
+				5BC00106D5A046BF89DB3249 /* Kiona-Itallic.ttf in Resources */,
+				3D3A3F6D640745A2B861E231 /* Kiona-Regular.ttf in Resources */,
+				848F7EDC001945559733E6A3 /* arial.ttf in Resources */,
+				1B1CECEAED724100AE3D76C1 /* arialbd.ttf in Resources */,
+				DB66AC3F286840CE9BD7D5A6 /* arialbi.ttf in Resources */,
+				F619A1EEB19D4892B64DB8AE /* ariali.ttf in Resources */,
+				530A05DC0AA945FAAD58470C /* ariblk.ttf in Resources */,
+				4D7475156E014928B01C2D9A /* bahnschrift.ttf in Resources */,
+				2C790CABD7494D6990F6F775 /* comic.ttf in Resources */,
+				63C1783CD47A408D89D21971 /* comicbd.ttf in Resources */,
+				16CF5370AE7B4CABA6838F1D /* comici.ttf in Resources */,
+				044AD7C34CE94EA797D66B1A /* comicz.ttf in Resources */,
+				786D2B59E20948B99ACC4F83 /* consola.ttf in Resources */,
+				FF3050DE13B2404C8603C0E6 /* consolab.ttf in Resources */,
+				ABF67C617E204EEC89D71EDC /* consolai.ttf in Resources */,
+				70476CDE59B54B809797D135 /* consolaz.ttf in Resources */,
+				DF676B02445A4192B34CDD9C /* cour.ttf in Resources */,
+				6268C7AAFDE6428BAEE8BB95 /* courbd.ttf in Resources */,
+				72DC62C24BF049FDB9CF6A98 /* courbi.ttf in Resources */,
+				FC1576B963FD428E9A1967EA /* couri.ttf in Resources */,
+				368C8608094E4998B7250408 /* Gabriola.ttf in Resources */,
+				9D954AF372A54B8BA727967E /* gadugi.ttf in Resources */,
+				F6807B663DA8413FB709E862 /* gadugib.ttf in Resources */,
+				82FC409F5A6B4791A954FEA1 /* GentiumPlus-I.ttf in Resources */,
+				CA2A4011F05848F09A623BE8 /* georgia.ttf in Resources */,
+				63454FC0508D49A1B5963E91 /* georgiab.ttf in Resources */,
+				769090AE961C4B5BB6855ECF /* georgiai.ttf in Resources */,
+				6004D28C6A7C426F82BC1A14 /* georgiaz.ttf in Resources */,
+				5339E981AEC2491E976AD3DC /* himalaya.ttf in Resources */,
+				5F719B97732742C18A4547CD /* l_10646.ttf in Resources */,
+				B20F5A5BBB0D4A63850D92CB /* LeelaUIb.ttf in Resources */,
+				25B2BCAD6A8641C7A99F730F /* LeelawUI.ttf in Resources */,
+				7BFA13D43CFE41C084BD110C /* LeelUIsl.ttf in Resources */,
+				C7D2F0D175D045ECB114F669 /* lucon.ttf in Resources */,
+				B1EA1D645BA441839E6059E1 /* malgun.ttf in Resources */,
+				3FA8ECB7A39E405CB8EBC18E /* micross.ttf in Resources */,
+				284EF44D3CBD44A288DABCA0 /* msjh.ttc in Resources */,
+				6EB89C674CFB41609AA8B498 /* msyh.ttc in Resources */,
+				F2FDC6FBE51F4A23B921138D /* Nirmala.ttf in Resources */,
+				AF46D249391C46E8B9EF37DF /* NirmalaB.ttf in Resources */,
+				FF086BECA88D49AE891FECD9 /* NirmalaS.ttf in Resources */,
+				BD6BCA3F08A44ECBBCA3DFB8 /* segmdl2.ttf in Resources */,
+				B63EF73C2D7849139ECFFEFF /* segoepr.ttf in Resources */,
+				FA108A8DD48D4B67AE17F76E /* segoeprb.ttf in Resources */,
+				2E5D0E4354BC4D2D94B96FD4 /* segoesc.ttf in Resources */,
+				FA2AD6194AF94370B5C3B120 /* segoescb.ttf in Resources */,
+				543948C4BCA54517968808CC /* segoeui.ttf in Resources */,
+				9B21315AC27044DF994A7DD5 /* segoeuib.ttf in Resources */,
+				7394D4D3EC714B668D8D5150 /* segoeuii.ttf in Resources */,
+				7BB6A48DED9F4F2D9C699213 /* segoeuil.ttf in Resources */,
+				4AFE54F6BBEC4C96A683B04A /* segoeuisl.ttf in Resources */,
+				C594A5778E5E4DB98E914190 /* segoeuiz.ttf in Resources */,
+				CD63F94B55D84727B67F05E9 /* seguibl.ttf in Resources */,
+				2FD3240C5E744984A033480E /* seguibli.ttf in Resources */,
+				030BBC9F70CF40548E544462 /* seguiemj.ttf in Resources */,
+				1C2DEB959F3E4CD6A975436B /* seguihis.ttf in Resources */,
+				73FDF549E3FF4E6C80514005 /* seguili.ttf in Resources */,
+				B8DFB14A3C0D4E769CD58E82 /* seguisb.ttf in Resources */,
+				49EF3E7D7211440C8F0CBF66 /* seguisbi.ttf in Resources */,
+				461A5F1418AB4ACB82C03D48 /* seguisli.ttf in Resources */,
+				0E0028A984BF4EFEA10387B5 /* seguisym.ttf in Resources */,
+				00E30A70E3244D89936D6467 /* sylfaen.ttf in Resources */,
+				B64C72A859384D8D8F122CE9 /* symbol.ttf in Resources */,
+				DA8E35531A74449597191A70 /* tahoma.ttf in Resources */,
+				9897E3597F5B42FC91827425 /* tahomabd.ttf in Resources */,
+				44C812DD4BAE499FAD564F4F /* taile.ttf in Resources */,
+				E2582EDFF7C94F10A4859C05 /* taileb.ttf in Resources */,
+				764B140E196141C5B88C8101 /* times.ttf in Resources */,
+				236C42A9329548179A4901F6 /* timesbd.ttf in Resources */,
+				BC2746F5F7B24799AF865AD1 /* timesbi.ttf in Resources */,
+				FFF4F512E7314535A5104175 /* timesi.ttf in Resources */,
+				9C8FBBC1D05E471B822404BE /* wingding.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

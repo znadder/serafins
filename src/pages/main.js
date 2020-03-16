@@ -44,9 +44,9 @@ export default class Main extends Component {
     }
 
     findBook = async () => {
-        const response = await api.get(`/books/${this.state.abbrev}`)
-        const chapterLimit = response.data.chapters
-        this.props.navigation.navigate("bookSelect", { abrrev: this.state.abbrev, chapter: this.state.chapter, chapterLimit: chapterLimit, books: this.state.books })
+        // const response = await api.get(`/books/${this.state.abbrev}`)
+        // const chapterLimit = response.data.chapters
+        this.props.navigation.navigate("navigationTop")
     }
 
     renderItem = ({ item }) => {
@@ -75,7 +75,7 @@ export default class Main extends Component {
 
                 <TouchableOpacity
                     style={styles.find}
-                    onPress={() => { this.findBook(this.state.abbrev, this.state.chapter) }}>
+                    onPress={() => { this.findBook() }}>
                     <Text style={styles.findButtonText}> Find </Text>
                 </TouchableOpacity>
 

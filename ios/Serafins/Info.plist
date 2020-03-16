@@ -74,6 +74,85 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>Arial.ttf</string>
+		<string>ceaswfte.ttf</string>
+		<string>cebswfte.ttf</string>
+		<string>ceiswfte.ttf</string>
+		<string>Century Bold Italic.ttf</string>
+		<string>Century Bold.ttf</string>
+		<string>Century Normal.ttf</string>
+		<string>CENTURY.ttf</string>
+		<string>Kiona-Itallic.ttf</string>
+		<string>Kiona-Regular.ttf</string>
+		<string>arial.ttf</string>
+		<string>arialbd.ttf</string>
+		<string>arialbi.ttf</string>
+		<string>ariali.ttf</string>
+		<string>ariblk.ttf</string>
+		<string>bahnschrift.ttf</string>
+		<string>comic.ttf</string>
+		<string>comicbd.ttf</string>
+		<string>comici.ttf</string>
+		<string>comicz.ttf</string>
+		<string>consola.ttf</string>
+		<string>consolab.ttf</string>
+		<string>consolai.ttf</string>
+		<string>consolaz.ttf</string>
+		<string>cour.ttf</string>
+		<string>courbd.ttf</string>
+		<string>courbi.ttf</string>
+		<string>couri.ttf</string>
+		<string>Gabriola.ttf</string>
+		<string>gadugi.ttf</string>
+		<string>gadugib.ttf</string>
+		<string>georgia.ttf</string>
+		<string>georgiab.ttf</string>
+		<string>georgiai.ttf</string>
+		<string>georgiaz.ttf</string>
+		<string>himalaya.ttf</string>
+		<string>l_10646.ttf</string>
+		<string>LeelaUIb.ttf</string>
+		<string>LeelawUI.ttf</string>
+		<string>LeelUIsl.ttf</string>
+		<string>lucon.ttf</string>
+		<string>malgun.ttf</string>
+		<string>micross.ttf</string>
+		<string>msjh.ttc</string>
+		<string>msyh.ttc</string>
+		<string>Nirmala.ttf</string>
+		<string>NirmalaB.ttf</string>
+		<string>NirmalaS.ttf</string>
+		<string>segmdl2.ttf</string>
+		<string>segoepr.ttf</string>
+		<string>segoeprb.ttf</string>
+		<string>segoesc.ttf</string>
+		<string>segoescb.ttf</string>
+		<string>segoeui.ttf</string>
+		<string>segoeuib.ttf</string>
+		<string>segoeuii.ttf</string>
+		<string>segoeuil.ttf</string>
+		<string>segoeuisl.ttf</string>
+		<string>segoeuiz.ttf</string>
+		<string>seguibl.ttf</string>
+		<string>seguibli.ttf</string>
+		<string>seguiemj.ttf</string>
+		<string>seguihis.ttf</string>
+		<string>seguili.ttf</string>
+		<string>seguisb.ttf</string>
+		<string>seguisbi.ttf</string>
+		<string>seguisli.ttf</string>
+		<string>seguisym.ttf</string>
+		<string>sylfaen.ttf</string>
+		<string>symbol.ttf</string>
+		<string>tahoma.ttf</string>
+		<string>tahomabd.ttf</string>
+		<string>taile.ttf</string>
+		<string>taileb.ttf</string>
+		<string>times.ttf</string>
+		<string>timesbd.ttf</string>
+		<string>timesbi.ttf</string>
+		<string>timesi.ttf</string>
+		<string>wingding.ttf</string>
 	</array>
 </dict>
 </plist>

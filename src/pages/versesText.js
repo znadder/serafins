@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Text, View, FlatList, StyleSheet, Navigation, TouchableOpacity, Image } from 'react-native';
+import { Text, View, FlatList, StyleSheet, Navigation, TouchableOpacity, Image, ActivityIndicator } from 'react-native';
 import api from '../services/api';
 import { Header } from 'react-native/Libraries/NewAppScreen';
-import CustomIcon from '../components/CustomIcon/index'
+import CustomIcon from '../components/CustomIcon/index';
+import loader from './../services/loader';
 
 export default class Main extends Component {
 
@@ -13,14 +14,19 @@ export default class Main extends Component {
         chapterLimit: 0,
         abbrev: '',
         books: '',
+        loading: false,
     }
     componentDidMount() {
         this.getAbrrevChapter()
+        this.requestBookApi()
+        this.inSelected = this.props.navigation.getParam("func")
+        this.selectedBook = this.props.navigation.getParam("increaseBook")
+        this.inSelectedBook = this.props.navigation.getParam("funcBook")
     }
 
     getAbrrevChapter = async () => {
-        this.findBook(this.props.navigation.state.params.abrrev, this.props.navigation.state.params.chapter)
-        this.setState({ abbrev: this.props.navigation.state.params.abrrev, chapterLimit: this.props.navigation.state.params.chapterLimit, books: this.props.navigation.state.params.books })
+        this.findBook(this.props.navigation.state.params.abbrev, this.props.navigation.state.params.chapter)
+        this.setState({ abbrev: this.props.navigation.state.params.abbrev, chapterLimit: this.props.navigation.state.params.chapterLimit })
     }
 
     requestBookApi = async () => {
@@ -38,10 +44,11 @@ export default class Main extends Component {
         } catch (error) {
             console.log(error)
         }
-        console.log(this.state.books)
     }
 
     findBook = async (abbrev, chapter) => {
+        this.setState({ loading: true })
+        this.renderLoading(this.state.loading)
         const responseBook = await api.get(`/verses/nvi/${abbrev}/${chapter}`)
         this.setState({ rows: [] })
         let rows = []
@@ -56,23 +63,27 @@ export default class Main extends Component {
             rows: rows,
             chapterBook: responseBook.data.chapter.number,
             titleBook: responseBook.data.book.name,
-            abbrev: abbrev
+            abbrev: abbrev,
+            loading: false
         })
+        this.renderLoading(this.state.loading)
     }
 
     incrementChapter = () => {
         if (this.state.chapterBook < this.state.chapterLimit) {
             this.findBook(this.state.abbrev, this.state.chapterBook + 1)
+            this.inSelected(this.state.chapterBook + 1)
         } else {
-            console.log(this.state.books)
             let index = this.state.books.findIndex((item) => {
                 console.log(item); return item.abbrev === this.state.abbrev
             })
 
-            console.log(index, this.state.books.length - 1)
             if (index < this.state.books.length - 1) {
                 this.setState({ chapterLimit: this.state.books[index + 1].chapter })
                 this.findBook(this.state.books[index + 1].abbrev, 1)
+                this.inSelectedBook(this.state.books[index + 1])
+                this.selectedBook(this.state.books[index + 1].abbrev)
+                this.inSelected(1)
             } else {
                 console.log('acabou as paginas') //ocultar botao
             }
@@ -82,8 +93,8 @@ export default class Main extends Component {
     decreaseChapter = () => {
         if (this.state.chapterBook > 1) {
             this.findBook(this.state.abbrev, this.state.chapterBook - 1)
+            this.inSelected(this.state.chapterBook - 1)
         } else {
-            console.log(this.state.books)
             let index = this.state.books.findIndex((item) => {
                 console.log(item); return item.abbrev === this.state.abbrev
             })
@@ -91,6 +102,9 @@ export default class Main extends Component {
             if (index > 0) {
                 this.setState({ chapterLimit: this.state.books[index - 1].chapter })
                 this.findBook(this.state.books[index - 1].abbrev, this.state.books[index - 1].chapter)
+                this.inSelectedBook(this.state.books[index - 1].abbrev)
+                this.selectedBook(this.state.books[index - 1].abbrev)
+                this.inSelected(1)
             } else {
                 console.log('acabou as paginas') //ocultar botao
             }
@@ -105,22 +119,50 @@ export default class Main extends Component {
         )
     }
 
+    renderLoading = () => {
+
+        if (this.state.loading) {
+            return (
+                <View style={[styles.containerLoad, styles.horizontal]}>
+                    <ActivityIndicator size={60} color="#959595" />
+                </View>
+            )
+        }
+    }
+
+    renderHeader = () => {
+        return (
+            <View style={styles.header}>
+                <TouchableOpacity
+                    style={styles.return}
+                    onPress={() => {
+                        console.log(this.state.abbrev);
+                        this.props.navigation.navigate("navigationTop", {
+                            abbrev: this.state.abbrev,
+                            parametro: 'text'
+                        })
+                    }}>
+                    <Text style={styles.title}>  {this.state.titleBook} {this.state.chapterBook} </Text>
+                    <Image style={{
+                        height: 8,
+                        width: 8,
+                        marginLeft: 5,
+                        marginTop: 5,
+                        alignSelf: 'center',
+                    }}
+                        source={{ uri: `https://www.pngrepo.com/download/108052/arrow-down-filled-triangle.png` }} />
+                </TouchableOpacity>
+                {/* colaca algo aqui depois */}
+            </View>
+        )
+    }
+
     render() {
         return (
             <View >
-                <View style={styles.header}>
-                    <TouchableOpacity
-                        style={styles.return}
-                        onPress={() => { this.props.navigation.navigate("Main") }}>
-                        <Image style={{
-                            height: 18,
-                            width: 18,
-                        }}
-                            source={{ uri: `https://pngimage.net/wp-content/uploads/2018/06/return-button-png-2.png` }} />
-                    </TouchableOpacity>
-                    <Text style={styles.title}>  {this.state.titleBook} {this.state.chapterBook} </Text>
-                    {/* colaca algo aqui depois */}
-                </View>
+
+                {this.renderHeader()}
+
                 <FlatList
                     style={styles.flatlist}
                     contentContainerStyle={{ paddingBottom: 85 }}
@@ -128,6 +170,9 @@ export default class Main extends Component {
                     keyExtractor={item => item.verseNumber.toString()}
                     renderItem={this.renderItem}
                 />
+
+                {this.renderLoading()}
+
                 <View>
                     <TouchableOpacity
                         style={styles.navigateBottonL}
@@ -153,13 +198,13 @@ export default class Main extends Component {
 const styles = StyleSheet.create({
 
     title: {
-        fontSize: 20,
+        fontSize: 16,
         textAlign: 'center',
-        fontFamily: 'GentiumPlus-I',
+        fontFamily: 'arial',
     },
 
     verses: {
-        fontSize: 14,
+        fontSize: 15,
         textAlign: 'auto',
         fontFamily: 'GentiumPlus-I',
         color: '#202020',
@@ -167,21 +212,33 @@ const styles = StyleSheet.create({
 
     textBox: {
         alignSelf: 'auto',
-        textAlign: 'justify'
+        textAlign: 'justify',
+        marginTop: 5,
     },
 
     flatlist: {
-        paddingRight: 15,
-        paddingLeft: 15,
+        paddingHorizontal: 15,
         backgroundColor: '#F4F4F4'
     },
 
     header: {
-        marginTop: 10,
+        height: 50,
         flexDirection: 'row',
         alignItems: 'center',
-        paddingLeft: 20,
-        backgroundColor: '#F4F6F6'
+        backgroundColor: '#FAFAFA',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: -20,
+            height: -20,
+        },
+        shadowOpacity: 0.40,
+        shadowRadius: 4.65,
+        elevation: 5,
+    },
+
+    return: {
+        flexDirection: 'row',
+        marginLeft: 15,
     },
 
     navigateBottonLeft: {
@@ -210,5 +267,17 @@ const styles = StyleSheet.create({
         position: "absolute",
         bottom: 40,
         left: 20,
-    }
+    },
+
+    containerLoad: {
+        flex: 1,
+        justifyContent: 'center',
+        marginTop: 130,
+    },
+
+    horizontal: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        padding: 10
+    },
 });
